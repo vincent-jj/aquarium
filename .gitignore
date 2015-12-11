@@ -1,0 +1,8 @@
+tags
+*.swp
+build
+server/CMakeCache.txt
+server/CMakeFiles
+server/Makefile
+server/cmake_install.cmake
+
