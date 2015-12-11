@@ -1,0 +1,13 @@
+graph Aquarium {
+    n1 [label="N1"
+        pos="5, 5!"];
+    n2 [label="N2"
+        pos="10, 5!"];
+    n3 [label="N3" pos="15, 20!"];
+    n4 [label="N4"
+        pos="10, 10!"];
+    n1 -- n2 [label="3"];
+    n1 -- n3 [label="2"];
+    n2 -- n4 [label="1"];
+    n3 -- n4 [label="3"];
+}
